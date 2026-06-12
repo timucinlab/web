@@ -2,33 +2,53 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Computational Structural Biology &middot;
+  Department of Molecular Biology and Genetics,
+  <a href='https://www.gtu.edu.tr/'>Gebze Technical University</a>, Kocaeli, Türkiye.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg        # add your photo/logo to assets/img/prof_pic.jpg
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Gebze Technical University</p>
+    <p>Kocaeli, 41400, Türkiye</p>
+    <p>emelt@gtu.edu.tr</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true   # shows the papers flagged selected={true} in papers.bib
+social: true            # shows the contact/social icons at the bottom
 
+# Note: depending on your al-folio version, the keys below may be named
+# `news` / `announcements` and `latest_posts`. Keep whatever your demo
+# about.md already had for these and just edit the values above.
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to the **Timucin Lab**, led by **Emel Timucin** at the Department of
+Molecular Biology and Genetics, Gebze Technical University. 
+We are a computational research group that uses molecular dynamics simulations,
+protein structure prediction, and bioinformatics to understand how proteins behave and how that behavior can be tuned for therapeutic ends.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Our work spans several directions:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- **Molecular dynamics & enhanced sampling** — probing conformational dynamics
+  of proteins and protein–protein complexes.
+- **Structure prediction & benchmarking** — assessing modern predictors
+  (AlphaFold, Boltz, Chai, and others) on challenging targets such as
+  antibody–antigen and protein–peptide complexes.
+- **Variant interpretation** — structure-informed prediction of the functional
+  impact of missense mutations, including our AlphaFold-based pathogenicity
+  predictor, <a href="https://affipred.timucinlab.com/">AFFIPred</a>.
+- **Enzymes in non-native environments** — how lipases and other enzymes
+  fold, oligomerize, and stay active in deep eutectic solvents.
+
+**Join us.** We are looking for graduate students (PhD and MSc) who are curious
+about proteins, simulation, and computational biology. If that sounds like you,
+please get in touch at
+<a href="mailto:emelt@gtu.edu.tr">emelt@gtu.edu.tr</a>.
+
+> "Somewhere, something incredible is waiting to be known." — Carl Sagan
