@@ -1,6 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+
 title: TimucinLab # the website title (if blank, full name will be used instead)
 first_name: Emel
 middle_name:
